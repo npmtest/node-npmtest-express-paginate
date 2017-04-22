@@ -1,4 +1,7 @@
-# test coverage for  [express-paginate (v0.2.2)](https://github.com/niftylettuce/express-paginate)  [![npm package](https://img.shields.io/npm/v/npmtest-express-paginate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-paginate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-paginate.svg)](https://travis-ci.org/npmtest/node-npmtest-express-paginate)
+# npmtest-express-paginate
+
+#### basic test coverage for  [express-paginate (v0.2.2)](https://github.com/niftylettuce/express-paginate)  [![npm package](https://img.shields.io/npm/v/npmtest-express-paginate.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-paginate) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-paginate.svg)](https://travis-ci.org/npmtest/node-npmtest-express-paginate)
+
 #### Node.js pagination middleware and view helpers
 
 [![NPM](https://nodei.co/npm/express-paginate.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/express-paginate)
@@ -89,7 +92,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks --require test/support/should  test/",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks --require test/support/should test/"
     },
-    "version": "0.2.2"
+    "version": "0.2.2",
+    "bin": {}
 }
 ```
 
